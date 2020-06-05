@@ -5,28 +5,28 @@ This is a MATLAB implementation of the Heston stochastic volatiliy model. The mo
     a. Gauss Laguerre quadrature method
     b. Trapzeodial numerical integration
 
-Results.m : 
+Results.m :   
 	- Use this to see the outputs. This will execute 2 Live scripts: MonteCarlo_Live.mlx and Integration_Live.mlx
 
-MonteCarlo.m & MonteCarlo_Live.mlx:
+MonteCarlo.m & MonteCarlo_Live.mlx:  
 	- Use these to obtain prices using Monte Carlo
 
-Integration.m & Integration_Live.mlx:
+Integration.m & Integration_Live.mlx:  
 	- Use these to obtain prices using integration of the characteristic function
 
-HestonModel_Combined.m:
+HestonModel_Combined.m:  
 	- Combines the code for Monte Carlo and Integration
 
-FFTIntegration.m:
+FFTIntegration.m:  
 	- Implements the numerical methods used for integration
 
-SchoutensCF:
+SchoutensCF:  
 	- Implementation of the characteristic function proposed by Schoutens et al. (2004)
 
-CuiCF:
+CuiCF:  
 	- Implementation of the characteristic function proposed by Cui et al. (2017)
 
-GenerateGaussLaguerre.m:
+GenerateGaussLaguerre.m:  
 	- Generates 32-points for Gauss Laguerre quadrature integration
   
   
